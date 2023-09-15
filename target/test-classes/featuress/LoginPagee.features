@@ -1,0 +1,7 @@
+Feature: Login Functionality
+
+@Reg
+Scenario: login with valid details
+when user enter username and password
+And user click on login button
+Then validate successful login
