@@ -25,7 +25,7 @@ public class Basee {
 	public static Properties pro;
 	static {
 	try {
-		FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"/src/test/java/resources/env.properties");
+		FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"/src/test/java/resourcess/env.properties");
 		pro = new Properties();
 		pro.load(file);
 		} catch (IOException e) {
