@@ -57,7 +57,7 @@ public void tearDown(Scenario s) throws IOException
 	{
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
-		FileHandler.copy(src, new File("Screenshots/"+".png"));
+		FileHandler.copy(src, new File("Screenshotss/"+".png"));
 	}
 	driver.quit();
 
